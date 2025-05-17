@@ -1114,6 +1114,7 @@ class MEModel(cobra.core.model.Model):
 			fn = numpy.vectorize(lambda x: sympy.lambdify(list(atoms), x))
 			lb = [ x for x in fn(lb) ]
 			ub = [ x for x in fn(ub) ]
+			print(len(ub))
 			lambdas = { k:v for k,v in zip(Se.keys(), fn(list(Se.values()))) }
 		else:
 			lambdas = None

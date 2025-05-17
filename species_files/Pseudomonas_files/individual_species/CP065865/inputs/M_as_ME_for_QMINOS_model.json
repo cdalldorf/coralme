@@ -76,6 +76,9 @@
       "monocistronic",
       "polycistronic_wout_rRNA"
     ],
+    "f_mRNA": 0.02,
+    "f_rRNA": 0.86,
+    "f_tRNA": 0.12,
     "feature_types": [
       "CDS",
       "rRNA",
@@ -89,7 +92,13 @@
     "genome_mods": {},
     "growth_key": "mu",
     "include_pseudo_genes": false,
+    "k_deg": 12.0,
     "knockouts": [],
+    "kt": 4.5,
+    "m_aa": 0.109,
+    "m_nt": 0.324,
+    "m_rr": 1453.0,
+    "m_tRNA": 25.0,
     "mg2_per_ribosome": 171,
     "ngam": 1.0,
     "peptide_processing_subreactions": [
@@ -102,6 +111,7 @@
       "UAG": "PrfA_mono",
       "UGA": "PrfB_mono"
     },
+    "r0": 0.087,
     "ribosome_id": "ribosome",
     "rna_components": [],
     "run_bbh_blast": true,

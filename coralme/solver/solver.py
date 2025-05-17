@@ -278,7 +278,6 @@ class ME_NLP:
 
         # self.mu is a set of sympy Symbols
         dct = { symbol:muf for symbol in self.mu }
-
         if self.fn is None:
             xl = [ float(x.xreplace(dct)) if hasattr(x, 'subs') else x for x in self.xl ]
             xu = [ float(x.xreplace(dct)) if hasattr(x, 'subs') else x for x in self.xu ]
@@ -332,7 +331,6 @@ class ME_NLP:
         hs: basis
         """
         #me = self.me
-
         m, n, ha, ka, ad, bld, bud, hs0, _ = self.make_lp(muf)
 
         hs = basis
