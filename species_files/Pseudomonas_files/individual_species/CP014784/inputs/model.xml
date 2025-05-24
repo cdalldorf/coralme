@@ -38328,8 +38328,8 @@
       <parameter sboTerm="SBO:0000625" id="R_EX_o2_e_lower_bound" value="-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_glyclt_e_upper_bound" value="999999" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_4hphac_e_upper_bound" value="999999" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ATPM_lower_bound" value="8.39" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ATPM_upper_bound" value="8.39" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ATPM_lower_bound" value="5" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ATPM_upper_bound" value="5" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PYRt2rpp_lower_bound" value="-999999" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PYRt2rpp_upper_bound" value="999999" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RHA40tex_lower_bound" value="-999999" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -89081,7 +89081,7 @@
       <reaction id="R_NITR_NO" name="Nitrite reductase (NO forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_focytc_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_no2_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
